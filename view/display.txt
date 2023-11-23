@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Horoscope List</title>
+  <style>
+    .horoscope {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+    .horoscope img {
+      max-width: 100px;
+      margin-right: 10px;
+    }
+    .horoscope-details {
+      font-size: 1.2em;
+    }
+  </style>
+</head>
+<body>
+  <h1>List of Horoscopes</h1>
+  
+  <div class="horoscope">
+    <img src="aries.jpg" alt="Constellation Star Chart">
+    <div class="horoscope-details">
+      <h2>Name: Aries</h2>
+      <p>Constellation ID: 01</p>
+      <p>Birth Date: 21/03 – 19/04</p>
+      <p>Character Traits: High energy, confident</p>
+    </div>
+  </div>
+  
+  <div class="horoscope">
+    <img src="taurus.jpg" alt="Constellation Star Chart">
+    <div class="horoscope-details">
+      <h2>Name: Taurus</h2>
+      <p>Constellation ID: 02</p>
+      <p>Birth Date: 20/04 – 20/05</p>
+      <p>Character Traits: Reliable, patient</p>
+    </div>
+  </div>
+
+  <div class="horoscope">
+    <img src="gemini.jpg" alt="Constellation Star Chart">
+    <div class="horoscope-details">
+      <h2>Name: Gemini</h2>
+      <p>Constellation ID: 03</p>
+      <p>Birth Date: 21/05 – 21/06</p>
+      <p>Character Traits: </p>
+    </div>
+  </div>
+
+  <div class="horoscope">
+    <img src="cancer.jpg" alt="Constellation Star Chart">
+    <div class="horoscope-details">
+      <h2>Name: Cancer</h2>
+      <p>Constellation ID: 04</p>
+      <p>Birth Date: 22/06 – 22/07</p>
+      <p>Character Traits: </p>
+    </div>
+  </div>
+
+  <div class="horoscope">
+    <img src="leo.jpg" alt="Constellation Star Chart">
+    <div class="horoscope-details">
+      <h2>Name: Leo</h2>
+      <p>Constellation ID: 05</p>
+      <p>Birth Date: 23/07 – 22/08</p>
+      <p>Character Traits: </p>
+    </div>
+  </div>
+
+  <div class="horoscope">
+    <img src="virgo.jpg" alt="Constellation Star Chart">
+    <div class="horoscope-details">
+      <h2>Name: Virgo</h2>
+      <p>Constellation ID: 06</p>
+      <p>Birth Date: 23/08 – 22/09</p>
+      <p>Character Traits: </p>
+    </div>
+  </div>
+
+  <div class="horoscope">
+    <img src="libra.jpg" alt="Constellation Star Chart">
+    <div class="horoscope-details">
+      <h2>Name: Libra</h2>
+      <p>Constellation ID: 07</p>
+      <p>Birth Date: 23/09 – 23/10</p>
+      <p>Character Traits: </p>
+    </div>
+  </div>
+
+  <div class="horoscope">
+    <img src="scorpio.jpg" alt="Constellation Star Chart">
+    <div class="horoscope-details">
+      <h2>Name: Scorpio</h2>
+      <p>Constellation ID: 08</p>
+      <p>Birth Date: 24/10 – 21/11</p>
+      <p>Character Traits: </p>
+    </div>
+  </div>
+
+  <div class="horoscope">
+    <img src="sagittarius.jpg" alt="Constellation Star Chart">
+    <div class="horoscope-details">
+      <h2>Name: Sagittarius</h2>
+      <p>Constellation ID: 09</p>
+      <p>Birth Date: 22/11 – 20/12</p>
+      <p>Character Traits: </p>
+    </div>
+  </div>
+
+  <div class="horoscope">
+    <img src="capricorn.jpg" alt="Constellation Star Chart">
+    <div class="horoscope-details">
+      <h2>Name: Capricorn</h2>
+      <p>Constellation ID: 10</p>
+      <p>Birth Date: 21/12 – 20/01</p>
+      <p>Character Traits: </p>
+    </div>
+  </div>
+
+  <div class="horoscope">
+    <img src="aquarius.jpg" alt="Constellation Star Chart">
+    <div class="horoscope-details">
+      <h2>Name: Aquarius</h2>
+      <p>Constellation ID: 11</p>
+      <p>Birth Date: 21/01 – 19/02</p>
+      <p>Character Traits: </p>
+    </div>
+  </div>
+
+  <div class="horoscope">
+    <img src="pisces.jpg" alt="Constellation Star Chart">
+    <div class="horoscope-details">
+      <h2>Name: Pisces</h2>
+      <p>Constellation ID: 10</p>
+      <p>Birth Date: 202/0 – 20/03</p>
+      <p>Character Traits: </p>
+    </div>
+  </div>
+
+</body>
+</html>

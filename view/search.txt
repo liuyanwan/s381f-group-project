@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Horoscope Search</title>
+	<style>
+		label {
+			display: block;
+			font-weight: bold;
+			margin-top: 10px;
+		}
+		input[type="submit"] {
+			margin-top: 10px;
+		}
+	</style>
+</head>
+<body>
+	<div class="jumbotron text-center">
+		<h1>Horoscope Search</h1>
+	</div>
+	<form action="/search" method="POST">
+		<label for="name">Name:</label>
+		<input type="text" id="name" name="name" required placeholder="Enter your name">
+		
+		<label for="birthdate">Birthdate:</label>
+		<input type="date" id="birthdate" name="birthdate" required>
+		
+		<input type="submit" value="Search">
+	</form>
+	<p><a href="/home">Back to home</a></p>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant</title>
+    <style>
+    label{
+        font-size: 1.3em;
+    }
+    </style>
+</head>
+
+<div>
+<body>
+    <div class="jumbotron text-center">
+            <h1>Create New Horoscope characterTraits Information</h1>
+        </div>
+    <form action="/create" method="POST">
+        <label for='name'><b>Constellation Name*:</b></label><br>
+          <input type="text" id="name" name="name" placeholder=""><br><br>
+        <label for='Constellation'><b>Constellation ID*:</b></label><br>
+            <input type="text" id="ConstellationID" name="constllationID" placeholder="" pattern="[0-9]{8}"><br>
+        <small>Format: XX (Only available for number)</small><br><br>
+        <label for='birthDate'><b>birthdate:</b></label><br>
+            <input type="text" id="birthDate" name="birthDate" placeholder=""><br><br>
+        <label for='constellationStarChart'><b>constellationStarChart:</b></label><br>
+            <input type="jpg" id="constellationStarChart" name="constellationStarChart" placeholder=""><br><br>
+        <label for='characterTraits'><b>characterTraits:</b></label><br>
+            <textarea name="description" id="description" cols="50" rows="10" placeholder="Type your comments..."></textarea><br>
+        </p>
+        <input type="submit" value="Create" /> 
+    </form>    
+</body>
+</div>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horoscope Check System</title>
+    <style>
+        .jumbotron {
+            background-color: #f8faf889;
+            padding: 2rem;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+        }
+
+        .action-buttons {
+            display: flex;
+            justify-content: center;
+            margin-top: 2rem;
+        }
+
+        .action-buttons a {
+            margin: 0.5rem;
+            padding: 1rem 2rem;
+            text-decoration: none;
+            background-color: #7700ff;
+            color: #ffffff;
+            border-radius: 4px;
+            transition: background-color 0.3s ease;
+        }
+
+        .action-buttons a:hover {
+            background-color: #6500b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="jumbotron">
+        <h1>Horoscope Check System</h1>
+    </div>
+    <div class="action-buttons">
+        <a href="/check-horoscope" role="button">Check Horoscope</a>
+        <a href="/view-star-picture" role="button">View Horoscope Star Picture</a>
+    </div>
+</body>
+</html>
