@@ -3,7 +3,7 @@ Group: 45
 Name:
  Liu yanwan(12619346)
 
-Application link: 
+Application link: https://horoscope-checking.onrender.com
 
 ********************************************
 
@@ -30,7 +30,7 @@ In the home page, each user can log out their account by clicking logout.
   1) Constellation name (Aries)
   2) Constellation ID (01), constellation id must be 2 digits 
 3) Birth date (21/03– 19/04)
-  4) Constellation star chart (01-star.jpg), the type is jgp.
+  4) Constellation star chart (aries.jpg), the type is jgp.
 
 Birth date and constellation ID is mandatory, and other attributes are optional.
 Create operation is post request, and all information is in body of request.
